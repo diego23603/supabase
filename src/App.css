@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .App {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .post-form input,
+  .post-form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .post-form button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .post-form button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .post-list {
+    margin-top: 20px;
+  }
+  
+  .post-item {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-item h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .post-item p {
+    color: #666;
+  }
+  
+  .post-item button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .post-item button:hover {
+    opacity: 0.9;
+  }
+  
+  .post-item button:nth-child(2) {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  .post-item button:nth-child(3) {
+    background-color: #5bc0de;
+    color: white;
+  }
